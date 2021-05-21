@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Age Calculator</title>
+</head>
+<style>
+.button {background-color: #008CBA;} /* Blue */
+.content {
+  text-align: center
+  
+}
+.center {
+  
+  margin-left:  auto;
+  margin-right: auto;
+  
+}
+
+</style>
+<body>
+
+		 <form action="AgeDiffer" method ="POST">
+		<div class = "content">
+		 <h2>Age Calculator</h2>
+
+		 <h4>Enter Your Name and Date of Birth Accordingly</h4>
+		 <table class = "center" border="1">
+		 
+		 <tr>
+         <td>Name:</td> 
+         <td><input type = "text" id = "name" name = "name"></td>
+         </tr>
+         <tr>
+         <td>Date:</td> 
+         <td><input type="text" id="dob" name="dob" >(dd-MM-yyyy)</td>
+         </tr>
+         <tr>
+         <td colspan="2" align="center"><input class = "button"  type = "submit" id="sub" name="sub" value = "Submit" /></td>
+         </tr>
+         </table></div>
+       </form>
+</body>
+</html>
